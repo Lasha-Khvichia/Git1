@@ -28,7 +28,7 @@ body {
 .navigation_side {
   flex-basis: 255.2px;
   border-right: 1px solid rgba(255, 255, 255, 0.386);
-  padding: 20px;
+  padding: 10px 15px 15px 15px;
 }
 .logo_part {
   display: flex;
@@ -51,6 +51,7 @@ span {
 }
 .main_name {
   color: white;
+  font-size: 20px;
 }
 .margin_right {
   margin-right: 10px;
@@ -59,8 +60,54 @@ span {
   padding: 10px;
 }
 .cutter_line {
-  display: inline;
   min-width: 20px;
   min-height: 1px;
-  background-color: rgba(255, 255, 255, 0.386);
+  background-color: rgba(255, 255, 255, 0.057);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.margin_top {
+  margin-top: 20px;
+}
+.navigation_shorter {
+  position: absolute;
+  left: 235px;
+  width: 37.6px;
+  height: 37.6px;
+  border: 1px solid rgba(255, 255, 255, 0.386);
+  border-radius: 7px;
+  background-color: rgb(18,22,29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  width: 8px;
+  height: 8px;
+  rotate: 45deg;
+}
+.blue_activation {
+  background-color: rgb(16,33,52);
+  border-radius: 7px;
+}
+.user_identity {
+  padding-bottom: 10px;
+}
+.main_side {
+  display: flex;
+  flex-direction: column;
+
+}
+.main_topper {
+  display: flex;
+  flex-basis: 64px;
+  justify-content: flex-end;
+  border-bottom: 1px solid white;
+}
+.main_body {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
 }
