@@ -27,7 +27,7 @@ body {
 }
 .navigation_side {
   flex-basis: 255.2px;
-  border-right: 1px solid rgba(255, 255, 255, 0.386);
+  border-right: 1px solid rgb(41,44,54);
   padding: 10px 15px 15px 15px;
 }
 .logo_part {
@@ -74,9 +74,9 @@ span {
   left: 235px;
   width: 37.6px;
   height: 37.6px;
-  border: 1px solid rgba(255, 255, 255, 0.386);
+  border: 1px solid rgb(41,44,54);
   border-radius: 7px;
-  background-color: rgb(18,22,29);
+  background-color: rgb(22,26,35);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,16 +98,39 @@ span {
 .main_side {
   display: flex;
   flex-direction: column;
-
+  flex-grow: 1;
 }
 .main_topper {
   display: flex;
   flex-basis: 64px;
   justify-content: flex-end;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(41,44,54);
 }
 .main_body {
   display: flex;
-  justify-content: stretch;
-  align-items: stretch;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+.screen {
+  flex-grow: 1;
+  background-color: rgb(14,17,23);
+  flex-basis: 71%; 
+  display: flex;
+}
+.sidebar {
+  flex-grow: 1;
+  background-color: rgb(18,22,29);
+  flex-basis: 29%;
+}
+.comp_science {
+  flex-grow: 1;
+}
+.english {
+  flex-grow: 1;
+}
+.elements {
+  display: inline;
+  min-width: 268px;
+  min-height: 250px;
+  border: 1px solid rgb(18,22,29);
 }
